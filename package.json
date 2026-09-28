@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vetipv6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vet and reshape ipv6 text streams with deterministic transforms.",
+  "bin": {
+    "vetipv6": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vetipv6.git"
+  },
+  "homepage": "https://theworker02.github.io/vetipv6/",
+  "keywords": [
+    "vet",
+    "ipv6",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
